@@ -1,0 +1,81 @@
+body {
+  background-color: #ebebeb;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;
+}
+
+a {
+  color: #2e9ec9;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: normal;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+li b {
+  font-weight: bold;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #444444;
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 24px;
+  color: #444444;
+}
+
+ul {
+  margin-left: 0px;
+  margin-bottom: 40px;
+  padding-left: 0px;
+}
+
+li {
+  line-height: 1.3em;
+  list-style-type: none;
+  position:relative;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  background:#fff;
+  color: #444444;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+li:before, li:after {
+  content:"";
+  position:absolute;
+  z-index:-2;
+}
+
+body > ul > li > a:first-child {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  font-family: Georgia;
+}
+
+body > ul > li > a:first-child::before {
+  font-size: 100%;
+  content: "Permalink: ";
+}
+
+blockquote {
+  font-family: Georgia;
+  font-style: italic;
+  padding-left: 10px;
+  margin-left: 20px;
+}
