@@ -95,3 +95,33 @@ blockquote {
   padding-left: 10px;
   margin-left: 20px;
 }
+
+/* For Screens smaller than 800px width. Smaller margins on boxes and flexible widths */
+
+@media only screen and (max-width: 800px){
+  body {
+    padding: 5px;
+    width: 93%;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+    
+  ul {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+    
+  ul>li {
+    margin-bottom: 15px;
+    padding: 25px 25px 50px 25px;
+  }
+
+  blockquote {
+    padding-left: 0;
+    margin-left: 15px;
+  }
+}
